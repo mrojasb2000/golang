@@ -7,6 +7,7 @@ func main(){
 	x = "first "
 	fmt.Println(x)
 	//x = "second"
-	x = x + "second"
+	//x = x + "second"
+	x += "second"
 	fmt.Println(x)
 }
